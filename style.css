@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    margin:0;
+    overflow-x: hidden;
+    
+  }
+  /* to remove underline of anchor tag*/
+  a {
+    text-decoration: none !important;
+  }
+
+  /* styling to top navigation*/
+  .topnav {
+      background-color:white;
+      overflow: hidden;
+      padding-top: 10px;
+      overflow: hidden;
+      position: fixed; /* Set the navbar to fixed position */
+      top: 0; /* Position the navbar at the top of the page */
+      width: 100%; /* Full width */
+    
+      
+     }
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color:rgb(143, 30, 200);
+      text-decoration:none;
+    }
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color:blue;
+      border-radius: 5px;
+      color:white;
+      text-decoration: none;
+  }
+     /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      display: block;
+      color:black;
+      text-align: center;
+      padding: 14px 16px;
+      font-size: 17px;
+  
+    }
+    .active{
+        margin-left: 5px;
+        float:right;
+        border: red;
+        margin-right: 160px;
+        margin-left: 100px;
+      }
+      /*style to background image */
+main .titel1
+{
+    background: url("images/background\ \(2\).jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+   margin-top: 20px;
+} 
+main .titel1 .background-image
+{
+    padding-top:20px;
+    text-align: center;
+    color:white;
+    margin: 100px;
+    margin-left: 20px;
+}
+ .background-image  a.button{
+    margin: 40px;
+    color:black;
+    background-color:blue;
+    border-color:blue;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 35%;
+    height: 12%;
+    padding: 10px;
+
+}
+
+.visit h2{
+  font-size: 30px;
+  color: blue;
+  text-align: center;
+  margin-top: 60px;
+}
+
+/*styling to latest block section*/
+.travel {
+    padding: 20px;
+    margin:20px;
+    font-size: 24px;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height:300px;
+}
+.visit {
+   width:100%;
+   text-align:center;
+   color: black;
+   /*padding: 5px;*/
+   font-size:16px;
+}
+.travel1 {
+    padding: 20px;
+    margin:20px;
+    font-size: 24px;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height:300px;
+    margin-top:250px;
+}
+.titel1 .background-image h2,p{
+    color:blue;
+
+}
+.visit h4{
+ margin-top: 20px;
+ color: rgb(60, 60, 225);
+}
+.latest h2 {
+  text-align: center;
+  color: rgb(51, 51, 245);
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-weight: bolder;
+}
+.visit p {
+    padding: 10px;
+    color: black;
+}
+.travel1 .visit img:hover{
+  transform: scale(1.1);
+
+}
+.travel .visit img:hover{
+  transform: scale(1.1);
+
+}
+.travel .visit:hover {
+  opacity: 1;
+}
+.travel1 .visit:hover {
+  opacity: 1;
+}
+
+/* styling to about us */
+.about
+{
+   margin-top: 300px;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 18px;
+}
+.about p
+{
+  color: rgb(90, 87, 87);
+  margin-top: 20px;
+  line-height: 1.5;
+}
+.about h2
+{
+  color: blue;
+  text-decoration:wavy;
+}
+
+/*style to bottom navigation*/
+.navbar {
+  background-color: rgb(104, 104, 246);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  text-decoration:none;
+  margin-top: 40px;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f3f3f3;
+  text-align: center;
+  padding: 1px 1px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top:20px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #eee;
+  color: black;
+  text-decoration:none;
+  color: #FF5733;
+}
+
+/*style to icons */
+
+
+
+
+
+
+
+

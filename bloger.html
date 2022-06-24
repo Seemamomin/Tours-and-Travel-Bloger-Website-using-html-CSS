@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blogercontactform.css">
+    <title>get in touch</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    }
+    
+
+body{
+   
+    background-color:white;
+    font-family: sans-serif;  
+}
+.container{
+    width: 600px;
+    background-color:white;
+    border-left: brown solid 10px;
+    border-right: brown solid 10px;
+    border-top: brown solid 5px;
+
+    top:80%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    
+
+}
+form{
+    margin: 10px;
+}
+
+.input{
+    width: 300px;
+    height: 20px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right:10px ;
+    border-width: 1px;
+    border-color: orange;
+}
+.text-area{
+    height: 200px;
+    width: 400px;
+    padding:20px ;
+
+}
+.heading{
+    background-color:rgb(250, 37, 37);
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    
+}
+.btn{
+    border-radius: 5px;
+    color: white;
+    margin-top:5px ;
+    padding:10px ;
+    padding-left: 10px;
+    background-color: orange;
+    font-size: 12px;
+    border: none;
+}
+.label{
+    padding-left:10px;
+    font-size: 8px;
+    color:rgb(127, 123, 123);
+
+}
+.phone{
+    margin: 10px;
+    padding-left: 10px;
+    padding-right:10px ;
+    border-width: 1px;
+    border-color: orange;
+    width: 150px;
+    height:20px
+}
+.area{
+    background-color:rgb(26, 143, 216);
+}
+.btn{
+    background-color: green;
+    color: white;
+}
+</style>
+<body>
+
+    <div class="container">
+        <div class="heading">
+       
+            <p>Blogger Contact Form<p>
+    
+        </div>
+
+     <form>
+
+         <table>
+             <tr>
+                 <td>
+                     Name
+                 </td>
+                 <td>
+                    <input type="text" class="input" name="firstname">
+                    <br><label for="fname" class="label">First Name</label>
+                   </td>
+             </tr>
+             <tr>
+                 <td>
+
+                 </td>
+                 <td>
+                    <input type="text" class="input" name="lastname">
+                    <br><label for="lname" class="label">Last name</label>
+
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                     Email
+                 </td>
+                 <td>
+                    <input type="text" class="input" name="lastname"><br>
+                    <label for="lname" class="label">example@example.com</label>
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                     Phone Number
+                 </td>
+                 <td>
+                    <input type="text" class="phone" name="phone">
+                    <br><label for="phone" class="label">Area Code</label>
+
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+
+                 </td>
+                 <td>
+                    <input type="text" class="phone" name="phone">
+                    <br><label for="phone" class="label">Phone Number</label>
+
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                    Website URL
+
+                 </td>
+                 <td>
+                    <input type="text" class="input" name="url">
+
+                 </td>
+             </tr>
+            </table>
+            <label for="phone">Message</label><br>
+            <textarea type="text" class="input text-area" name="message" placeholder="Type here...."></textarea>
+
+      </form>
+      <div class="area">
+        <br><button type="Submit" class="btn">Submit</button>
+       </div>
+
+    </div>
+
+</body>
+</html>
